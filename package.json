@@ -13,5 +13,8 @@
   "type": "module",
   "dependencies": {
     "@supabase/supabase-js": "^2.48.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
