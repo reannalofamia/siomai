@@ -9,7 +9,7 @@
 
 // btn.addEventListener('click', navToggle)
 
-const { createClient } = require('@supabase/supabase-js');
+import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = 'https://qfjdoxjxlidcrryrfbri.supabase.co';
 const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFmamRveGp4bGlkY3JyeXJmYnJpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAzMTY0NjEsImV4cCI6MjA1NTg5MjQ2MX0.-iX-kYRdvjF30TdWU4sqKb9ZpjtwcrEeKRdqlJmyt84';
