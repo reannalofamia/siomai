@@ -14,7 +14,25 @@
         <title>Cozy Corner</title>
         <link rel="icon" type="image/png" href="https://res.cloudinary.com/dttx2z5da/image/upload/v1740242287/dr019_1_ss6zam.png">  
     </head>
+    <!-- Backend Test -->
     <body>
+      <header>
+        <h1>Coffee Shop</h1>
+        <div id="auth-status">
+            <button id="login-btn">Login</button>
+            <button id="logout-btn" style="display: none;">Logout</button>
+        </div>
+    </header>
+    <div id="product-list"></div>
+    <div id="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <button id="place-order-btn">Place Order</button>
+    </div>
+    <div id="order-status"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+
     <!-- Navigation -->
     <nav class="navbar">
       <div class="navbar-container">
